@@ -131,13 +131,12 @@ public class ConsoleShellFactory implements Factory<Command> {
         }
 
         private void printPreamble(ConsoleReader consoleReader) throws IOException {
-            consoleReader.println("███╗   ███╗ █████╗ ██╗  ████████╗██████╗  ██████╗ ███╗   ██╗ ██████╗██████╗  █████╗ ███████╗████████╗" + "\r");
-            consoleReader.println(" ████╗ ████║██╔══██╗██║  ╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝" + "\r");
-            consoleReader.println(" ██╔████╔██║███████║██║     ██║   ██████╔╝██║   ██║██╔██╗ ██║██║     ██████╔╝███████║█████╗     ██║   " + "\r");
-            consoleReader.println(" ██║╚██╔╝██║██╔══██║██║     ██║   ██╔══██╗██║   ██║██║╚██╗██║██║     ██╔══██╗██╔══██║██╔══╝     ██║   " + "\r");
-            consoleReader.println(" ██║ ╚═╝ ██║██║  ██║███████╗██║   ██║  ██║╚██████╔╝██║ ╚████║╚██████╗██║  ██║██║  ██║██║        ██║   " + "\r");
-            consoleReader.println(" ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝        ╚═╝   " + "\r");
-            consoleReader.println("\r");
+            consoleReader.println("  __  __       _ _                    _____            __ _   " + "\r"); 
+            consoleReader.println("|  \/  |     | | |                  / ____|          / _| |  " + "\r");
+            consoleReader.println("| \  / | __ _| | |_ _ __ ___  _ __ | |     _ __ __ _| |_| |_ " + "\r");
+            consoleReader.println("| |\/| |/ _` | | __| '__/ _ \| '_ \| |    | '__/ _` |  _| __|" + "\r");
+            consoleReader.println("| |  | | (_| | | |_| | | (_) | | | | |____| | | (_| | | | |_ " + "\r");
+            consoleReader.println("|_|  |_|\__,_|_|\__|_|  \___/|_| |_|\_____|_|  \__,_|_|  \__|" + "\r");
             consoleReader.println("Connected to: MaltronCraft" + "\r");
             consoleReader.println("\r");
             consoleReader.println("Type 'exit' to exit the shell." + "\r");
