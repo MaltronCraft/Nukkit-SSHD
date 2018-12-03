@@ -131,14 +131,13 @@ public class ConsoleShellFactory implements Factory<Command> {
         }
 
         private void printPreamble(ConsoleReader consoleReader) throws IOException {
-            consoleReader.println("  _____ _____ _    _ _____" + "\r");
-            consoleReader.println(" / ____/ ____| |  | |  __ \\" + "\r");
-            consoleReader.println("| (___| (___ | |__| | |  | |" + "\r");
-            consoleReader.println(" \\___ \\\\___ \\|  __  | |  | |" + "\r");
-            consoleReader.println(" ____) |___) | |  | | |__| |" + "\r");
-            consoleReader.println("|_____/_____/|_|  |_|_____/" + "\r");
+            consoleReader.println("███╗   ███╗ █████╗ ██╗  ████████╗██████╗  ██████╗ ███╗   ██╗ ██████╗██████╗  █████╗ ███████╗████████╗" + "\r");
+            consoleReader.println(" ████╗ ████║██╔══██╗██║  ╚══██╔══╝██╔══██╗██╔═══██╗████╗  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝╚══██╔══╝" + "\r");
+            consoleReader.println(" ██╔████╔██║███████║██║     ██║   ██████╔╝██║   ██║██╔██╗ ██║██║     ██████╔╝███████║█████╗     ██║   " + "\r");
+            consoleReader.println(" ██║╚██╔╝██║██╔══██║██║     ██║   ██╔══██╗██║   ██║██║╚██╗██║██║     ██╔══██╗██╔══██║██╔══╝     ██║   " + "\r");
+            consoleReader.println(" ██║ ╚═╝ ██║██║  ██║███████╗██║   ██║  ██║╚██████╔╝██║ ╚████║╚██████╗██║  ██║██║  ██║██║        ██║   " + "\r");
+            consoleReader.println(" ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝        ╚═╝   " + "\r");
             consoleReader.println("Connected to: " + Server.getInstance().getName() + "\r");
-            consoleReader.println("- " + Server.getInstance().getMotd() + "\r");
             consoleReader.println("\r");
             consoleReader.println("Type 'exit' to exit the shell." + "\r");
             consoleReader.println("===============================================" + "\r");
