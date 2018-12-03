@@ -137,7 +137,8 @@ public class ConsoleShellFactory implements Factory<Command> {
             consoleReader.println(" ██║╚██╔╝██║██╔══██║██║     ██║   ██╔══██╗██║   ██║██║╚██╗██║██║     ██╔══██╗██╔══██║██╔══╝     ██║   " + "\r");
             consoleReader.println(" ██║ ╚═╝ ██║██║  ██║███████╗██║   ██║  ██║╚██████╔╝██║ ╚████║╚██████╗██║  ██║██║  ██║██║        ██║   " + "\r");
             consoleReader.println(" ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝        ╚═╝   " + "\r");
-            consoleReader.println("Connected to: MaltronCraft"\r");
+            consoleReader.println("\r");
+            consoleReader.println("Connected to: MaltronCraft" + "\r");
             consoleReader.println("\r");
             consoleReader.println("Type 'exit' to exit the shell." + "\r");
             consoleReader.println("===============================================" + "\r");
